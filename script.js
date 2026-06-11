@@ -1,5 +1,5 @@
-const QUIZ_URL = "https://ko-lay926.github.io/WeeklyEnglish3/www/quizzes.json";
-
+const QUIZ_URL =
+"https://ko-lay926.github.io/WeeklyEnglish3/www/quizzes.json?v=" + Date.now();
 let quizData = {};
 let currentLevel = "level1";
 let currentIndex = 0;
