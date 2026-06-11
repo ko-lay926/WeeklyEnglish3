@@ -1,4 +1,4 @@
-const QUIZ_URL = "https://ko-lay926.github.io/WeeklyEnglish2/www/quizzes.json";
+const QUIZ_URL = "https://ko-lay926.github.io/WeeklyEnglish3/www/quizzes.json";
 
 let quizData = {};
 let currentLevel = "level1";
