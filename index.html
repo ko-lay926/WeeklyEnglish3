@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>WeeklyEnglish Quiz</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="container">
+
+    <h1>📘 WeeklyEnglish Quiz</h1>
+
+    <h3 id="welcome">Loading...</h3>
+
+    <div class="top-buttons">
+
+        <button onclick="showHistory()">
+            📊 Results
+        </button>
+
+        <button onclick="shareResult()">
+            📤 Share
+        </button>
+
+        <button onclick="resetProgress()">
+            🗑 Reset
+        </button>
+
+    </div>
+<div id="levelScreen">
+
+    <div id="levels" class="levels-grid"></div>
+
+</div>
+
+<div id="quizScreen" style="display:none;">
+
+    <div class="quiz-box">
+
+        <h2 id="question">
+            Loading Quiz...
+        </h2>
+
+        <div id="options"></div>
+
+        <div id="result"></div>
+
+    </div>
+
+</div>
+
+<div id="history"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
